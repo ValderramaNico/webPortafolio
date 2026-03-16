@@ -1,0 +1,23 @@
+# Robots.txt para DevStudio
+# https://devstudio.cl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://devstudio.cl/sitemap.xml
+
+# Bloquear archivos de desarrollo
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /node_modules/
+
+# Permitir crawlers de redes sociales
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
